@@ -20,7 +20,69 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
-/stock_rankings.csv
-/.vs/TradingBot/FileContentIndex
-/.vs/TradingBot/v17
-/.vs/VSWorkspaceState.json
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.pyproj.user
+
+# Python Tools for Visual Studio (PTVS)
+*.ptvs*
+
+# Logs
+*.log
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# IDE folders and files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Environments (remove if you keep venv inside project)
+.env
+.venv
+
+# Ignore output reports (optional - remove if you want to commit reports)
+*.csv
+*.xlsx
+*.html
