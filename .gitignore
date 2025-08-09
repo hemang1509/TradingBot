@@ -20,3 +20,7 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
+/stock_rankings.csv
+/.vs/TradingBot/FileContentIndex
+/.vs/TradingBot/v17
+/.vs/VSWorkspaceState.json
